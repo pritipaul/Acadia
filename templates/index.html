@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+  <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+  <title>TINT Chatbot</title>
+</head>
+<body>
+
+
+  <div class="container">
+    <div class="chatbox">
+      <div class="chatbox__support">
+        <div class="chatbox__header">
+          <div class="chatbox__image--header">
+            <img src="{{url_for('static', filename = 'images/techno.webp')}}" width="50px" height="50px" class="image">
+          </div>
+          <div class="chatbox__content--header">
+            <h4 class="chatbox__heading--header">ACADIA</h4>
+            <p class="chatbox__description--header">Hello, Welcome to our College. I am your virtual assistant.</p>
+          </div>
+        </div>
+        <div class="chatbox__messages">
+          <div></div>
+        </div>
+        <div class="chatbox__footer">
+          <input type="text" placeholder="Write a message...">
+          <button class="chatbox__send--footer send__button">Send</button>
+        </div>
+      </div>
+      <div class="chatbox__button">
+        <button><img src="{{ url_for('static', filename='images/chaticon.png') }}" width="60px" height="70px" /></button>
+      </div>
+    </div>
+  </div>
+
+
+  <script type=text/javascript>
+      $SCRIPT_ROOT = {{ request.script_root | tojson }};
+  </script>
+  <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+
+</html>
