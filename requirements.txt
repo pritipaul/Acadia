@@ -1,8 +1,0 @@
-torch
-nltk
-numpy 
-pandas
-random
-json
-nltk_utils
-flask
