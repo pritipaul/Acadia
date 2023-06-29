@@ -1,6 +1,7 @@
 # In First part NLP concepts (tokenization, Stemming, bag of words)
 
 import nltk
+nltk.download('punkt')
 import numpy as np
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
