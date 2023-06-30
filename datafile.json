@@ -1,0 +1,1694 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay"
+      ],
+      "responses": [
+        "Hi there. I am your personal Assistant. How may I help you today"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Have a nice day. Bye! Come back again"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "About",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who are you?"
+      ],
+      "responses": [
+        "I.m Acadia, your bot assistant",
+        "I'm Acadia, an Artificial Intelligent bot"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name",
+        "what should I call you",
+        "what's your name?"
+      ],
+      "responses": [
+        "You can call me Acadia.",
+        "I'm Acadia !",
+        "Just call me Acadia"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need support",
+        "I need help",
+        "support me please"
+      ],
+      "responses": [
+        "Tell me how I can assist you",
+        "Tell me your problem to assist you",
+        "Yes Sure, How can I support you"
+      ]
+    },
+    {
+      "tag": "create account",
+      "patterns": [
+        "I need to create a new account",
+        "how to open a new account",
+        "I want to create an account",
+        "Can you create an account for me",
+        "how to open a new account"
+      ],
+      "responses": [
+        "You can just easily create a new account from our website <a href=\"https://tint.edu.in/\">https://tint.edu.in/</a>",
+        "Just go to our website at <a href=\"https://tint.edu.in/\">https://tint.edu.in/</a> and follow the guidelines to create a new account"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "Have a complaint",
+        "I want to raise a complaint",
+        "There is a complaint about a service"
+      ],
+      "responses": [
+        "Please provide us with your complaint in order to assist you",
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+      ]
+    },
+    {
+      "tag": "TINT",
+      "patterns": [
+        "Tell me about TINT",
+        "Give me information about TINT",
+        "History of TINT",
+        "When was TINT established",
+        "Ranking of TINT",
+        "Ranking TINT",
+        "Significance of college",
+        "Significance of TINT",
+        "Rank of the college",
+        "College rank",
+        "About TINT",
+        "Who established TINT",
+        "Founder of TINT",
+        "Founded by whom",
+        "What engages TINT",
+        "Engagement of TINT",
+        "Strategies of TINT"
+      ],
+      "responses": [
+        "Techno International New Town formerly known as Techno India College Of Technology (TINT) is an engineering college situated in West Bengal Kolkata. It is a promising college under the aegis of Techno India Group with a vision of delivering quality education in the field of B. TECH (ECE, AEIE, CSE, IT, CSBS, IoT, Data Science, CE, ME, EE), MTECH(EE) and MCA. It was established in 2005",
+        "TINT engages industry experts to take classes as visiting faculty or special sessions, lecture series, etc. TINT has initiated several exchange programs for students like summer internships, projects, training, etc.",
+        "TINT is a strategic College partner of Capgemini India and is accredited by Tata Consultancy Services Limited. It is a Trusted Academic Partner of Wipro Limited and a Campus Connect Program Partner of Infosys Limited. Employability Enhancement Programmes are conducted to groom the students for recruitment drives."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "Timings of the college",
+        "Timings of the TINT",
+        "Working days of the TINT",
+        "Working days of the college",
+        "When the college opens",
+        "When TINT opens",
+        "Best time to visit TINT",
+        "Best time to visit college",
+        "Tell me about the college schedule and timings",
+        "Tell me about the TINT schedule and timings",
+        "When should I arrive TINT",
+        "When should I attend college",
+        "When should I attend the TINT",
+        "Timing college",
+        "College Timing",
+        "What is my college time to arrive",
+        "What is my college time to visit",
+        "When to visit TINT",
+        "Timing of TINT",
+        "Timings for the students",
+        "Tell me the timings and schedules for the students"
+      ],
+      "responses": [
+        "College is open Monday to Friday from 11:00 A.M to 5:00 P.M for official work. \n College is open for the students Monday to Friday from 9:45 A.M to 5:00 P.M.",
+        "TINT is open Monday to Friday from 11:00 A.M to 5:00 P.M for official work. \n TINT is open for the students Monday to Friday from 9:45 A.M to 5:00 P.M"
+      ]
+    },
+    {
+      "tag": "College_Director",
+      "patterns": [
+        "Who is the principle of TINT",
+        "Who is the Director of TINT",
+        "Tell me about TINT Director",
+        "Tell me about College Director",
+        "Tell me about College Principle",
+        "Who is the Director",
+        "Who is the principle",
+        "Director",
+        "Principle"
+      ],
+      "responses": [
+        "Director - Dr. Radha Tamal Goswami",
+        "The Director of the TINT is Dr. Radha Tamal Goswami",
+        "Principle - Dr. Radha Tamal Goswami",
+        "The Principle of the TINT is Dr. Radha Tamal Goswami",
+        "Director of the college is Dr. Radha Tamal Goswami",
+        "Principle of the college is Dr. Radha Tamal Goswami"
+      ]
+    },
+    {
+      "tag": "Contact_Number",
+      "patterns": [
+        "More Info about the college",
+        "Contact Info of the college",
+        "College calling number",
+        "What is the contact number of the college",
+        "Contact number",
+        "How we can reach college by telephone",
+        "How we can call you",
+        "Can you share the contact number with",
+        "Please tell me the contact Info",
+        "Contact information",
+        "More Info about the TINT",
+        "Contact Info of the TINT",
+        "TINT calling number",
+        "What is the contact number of the TINT",
+        "Contact number",
+        "How we can reach TINT by telephone",
+        "Contact Info of TINT",
+        "Contact Information of TINT",
+        "Contact Information of college"
+      ],
+      "responses": [
+        "You can contact us via call at +91 33-23242050/2091/18002588154"
+      ]
+    },
+    {
+      "tag": "College_website",
+      "patterns": [
+        "More Info about the college website",
+        "Website Info of the college",
+        "College Website",
+        "What is the Website of the college",
+        "Website",
+        "How we can reach college Website",
+        "How we can see college website",
+        "Can you share the website with",
+        "Please tell me the website Info",
+        "website information",
+        "More Info about the TINT website",
+        "Website Info of the TINT",
+        "TINT website",
+        "What is the website of the TINT",
+        "How we can reach TINT through the website",
+        "Website Info of TINT",
+        "Website Information of TINT",
+        "Website Information of college"
+      ],
+      "responses": [
+        "You can reach our website at <a href=\"https://tint.edu.in/\">https://tint.edu.in/</a>. \n Thank You for reaching us. \n Have a Good Day."
+      ]
+    },
+    {
+      "tag": "extracurricular_activities_clubs",
+      "patterns": [
+        "What are the different clubs in TINT",
+        "What are the extra-curricular activities that are present in the college",
+        "What are the extra-curricular activities that are present in TINT",
+        "Clubs in TINT",
+        "Are there any clubs present in this college",
+        "Are there any clubs in TINT",
+        "TINT Film and Drama club",
+        "TINT Art club",
+        "TINT Literature club",
+        "TINT Singing club",
+        "TINT Dance club",
+        "TINT coding club",
+        "English Literature club of the college",
+        "Art club of the college",
+        "Drama club of the college",
+        "Signing club of the college",
+        "Dance club of the college",
+        "Film club of the college",
+        "Extra-curricular activities at TINT",
+        "Coding club of the college"
+      ],
+      "responses": [
+        "There are 5 clubs in TINT.\n 1) TINT Music and Dancing Club (Hridmajhare). \n 2) TINT Photography Club. \n 3) TINT Literary Club (Litwits). \n 4) TINT Art Club (Aesthetica). \n 5) TINT Hikers & Planeteers Club. \n 6) TINT Talkies- The Film & Drama Club"
+      ]
+    },
+    {
+      "tag": "club_membership",
+      "patterns": [
+        "How to take membership of the clubs available in TINT",
+        "How to take membership of the clubs available in College",
+        "What is the procedure for taking club membership",
+        "When the membership form is given",
+        "When the membership form is live",
+        "What are the rules and regulations to be a part of the clubs at TINT college",
+        "Rules and regulations of the club",
+        "Procedures of taking part in club activities",
+        "How to take part in club activities",
+        "How can I get the membership form of this club",
+        "Art club membership form",
+        "Music and Dancing club membership form",
+        "Literary Club membership form",
+        "Photography club membership form",
+        "Aesthetica club membership form",
+        "Litwits club membership form",
+        "Hridmajhare club membership form",
+        "TINT Talkies- The Film & Drama Club form",
+        "TINT Hikers & Planeteers Club membership form",
+        "Eligibility to be a part of the clubs at TINT",
+        "Eligibility to be a part of the clubs in this college",
+        "TINT coding club membership",
+        "TINT Technical coding education and research club membership",
+        "TINT Student chapter membership",
+        "TINT technical club membership",
+        "TINT Sports club membership"
+      ],
+      "responses": [
+        "TINT offers facilities of 6 Clubs for pursuing extra-curricular activities. The membership forms of all these clubs are available in our college portal at <a href=\"https://tint.edu.in/campus-life/tint-clubs/rules-for-membership.html\">https://tint.edu.in/campus-life/tint-clubs/rules-for-membership.html</a>."
+      ]
+    },
+    {
+      "tag": "clubs_rules",
+      "patterns": [
+        "What are the rules to be followed for joining this extracurricular club",
+        "What are the rules and regulations of these clubs",
+        "What rules must be entertained before joining this clubs at TINT",
+        "Rules and regulations to be a part of these clubs at TINT",
+        "Rules and regulations of the clubs of this college",
+        "Rules of the clubs",
+        "Regulations of the clubs",
+        "What are the key aspects that need to be known to be a part of this clubs at TINT",
+        "TINT rules and regulations of the clubs",
+        "College clubs rules",
+        "What is the website of the college clubs",
+        "How can we know more about college clubs",
+        "Information about the rules and regulations of the college clubs",
+        "College clubs rules and regulations"
+      ],
+      "responses": [
+        "There are many rules and regulations that must be known before you join any club at TINT. \n 1) Membership of a Club and /or Student Chapter / Branch of a Professional Body will be granted to an applicant only after their application is forwarded by the concerned Head of the Department. \n 2) Applicants must have 75% attendance in both theory classes and laboratory sessions. \n 3) The applicant must not have impinged upon him/herself any disciplinary action/complaint. \n 4) No defaulter shall be considered eligible to hold membership in the Clubs and/or Professional Bodies. \n 5) The applicant must responsibly ensure that their participation in the activities of the Clubs does not encroach on their academic performance. \n 6) Mere submission of an application does not guarantee the selection of an applicant. \n 7) The selected members are expected to participate in the activities and attend the meetings of the concerned Clubs and Professional Bodies regularly. \n 8) Members shall under no circumstances use club properties provided or made available to them for their private purposes and must not mishandle Club property. \n 9) Members are expected to work responsibly and sincerely as well as develop a spirit of mutual respect and cooperation among themselves while organizing events or participating in Club activities. \n 10)Parents/Local Guardians must be informed regarding the involvement of the applicant with the Clubs and Professional Bodies. \n 11) Membership of a student may be terminated at any point in time if they are found to violate the regulations of membership. \n 12)Membership will automatically become invalid after graduating from college. \n 13) If at any point of time during their studentship in this College, an applicant wants to withdraw their membership of a Club, they must submit an application to that effect citing proper reasons to the Coordinator / Convenor of the concerned Club. \n The above regulations are subject to change without any prior notice, as and when required, with the approval of the competent authority."
+      ]
+    },
+    {
+      "tag": "Technical_education_Research_club",
+      "patterns": [
+        "What are the clubs for education and research",
+        "What are the clubs for research development in TINT",
+        "What the clubs for technical education",
+        "What are the club's Technical education and research",
+        "What are the student chapters programs in TINT",
+        "TINT research and development clubs",
+        "TINT Technical Education & Research clubs",
+        "Research developments clubs",
+        "College Technical and research clubs",
+        "What are the clubs present for technical education and research",
+        "Research development eligibilities present at TINT",
+        "Research development and technical education clubs in this college"
+      ],
+      "responses": [
+        "TINT provides some student chapters and student branches for the following Technical Education & Research activities. \n a) ISTE (Indian Society for Technical Education). \n b) ACM (Association of Computing Machinery). \n c) IEEE (Institute of Electrical and Electronics Engineers) \n d) IEI (Institution of Engineers, India). \n For more information about this feel free to reach us at <a href=\"https://tint.edu.in/campus-life/tint-clubs/rules-for-membership.html\">https://tint.edu.in/campus-life/tint-clubs/rules-for-membership.html</a>"
+      ]
+    },
+    {
+      "tag": "Sports",
+      "patterns": [
+        "What are the sports activities that are present in this college",
+        "TINT sports activities",
+        "When the sports are organized",
+        "Sports activities that are available in this college",
+        "Sports activities that are available at TINT",
+        "Sports life at TINT",
+        "How sports are arranged in TINT",
+        "Is sports organized in TINT",
+        "Is sports organized in this college",
+        "What is the name of sports clubs",
+        "Is the sports organized in a year",
+        "Is the sports organized every year",
+        "Is there any ground present at TINT for sports",
+        "Are there any indoor sports available",
+        "Are there any outdoor sports available"
+      ],
+      "responses": [
+        "Exuberance is the Sports Organizing Club of the College. \n Here both the members as well as non-members can take part in sports and have an opportunity to participate in all the sports activities held annually."
+      ]
+    },
+    {
+      "tag": "technical_clubs",
+      "patterns": [
+        "What are the technical clubs present in this college",
+        "What are the technical clubs at present",
+        "Technical clubs at TINT",
+        "Technical clubs at College",
+        "What are clubs for coding activities",
+        "What are the clubs present for hackathons",
+        "What are the clubs present for coding and technical workshops",
+        "can you tell me about the college technical clubs",
+        "Hackathons and workshops for the students at TINT",
+        "College organizing authority for hackathons and technical workshops",
+        "Coding contests, workshops, and hackathons are organized by which community",
+        "Coding contests, workshops, and hackathons are organized by which authority"
+      ],
+      "responses": [
+        "There are 3 technical clubs at TINT, namely: \n a) Genesis: The Official Science and Technology Club, TINT. \n b) TINT Coding Club. \n c) Google Developer Student Club (GDSC). \n Membership in any one of these three technical Clubs is mandatory for all engineering students. \n For more information please visit our college portal at <a href=\"https://tint.edu.in/campus-life/tint-clubs/rules-for-membership.html\">https://tint.edu.in/campus-life/tint-clubs/rules-for-membership.html</a>"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "List of the courses",
+        "List of the courses offered",
+        "List of courses offered in this college",
+        "List of courses offered in TINT",
+        "Courses",
+        "Can you tell me about courses",
+        "Can you tell me about different courses",
+        "Course list of TINT",
+        "Branches available in TINT",
+        "Streams available in TINT",
+        "Branches available in this college",
+        "Streams available in this college",
+        "Different branches",
+        "Different courses",
+        "Branches available",
+        "Streams available",
+        "Tell me about streams",
+        "Tell me about branches",
+        "Tell me about Departments",
+        "Different Departments",
+        "Certifications",
+        "Certifications offered in this college",
+        "Certifications offered in TINT",
+        "Tell me about different Certifications available in TINT",
+        "Tell me about Training Programs",
+        "Certification Programs",
+        "Training",
+        "What are the specialization courses available",
+        "What is the special training given",
+        "List of Training Programs",
+        "List of certification Programs",
+        "Different offerings of the courses and streams in TINT",
+        "Different levels of studies in TINT" 
+      ],
+      "responses": [
+        "TINT has 1) ECE 2) AEIE 3) CSE 4)IT 5) CSBS 6) IoT 7) Data Science 8)CE 9) ME 10) EE 11) MTECH(EE) 12) MCA"
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "What is the admission process at TINT",
+        "Admission process of the college",
+        "Admission process of the TINT",
+        "Admitted",
+        "Admit",
+        "How to get a seat in this college",
+        "How to get a chance in this college",
+        "How to get a chance at TINT",
+        "How can I get into TINT",
+        "JEE Mains",
+        "WBJEE",
+        "JELET",
+        "Getting into the college",
+        "Getting into TINT",
+        "Tell me about the admission process",
+        "Tell me about the college admission process",
+        "Tell me about TINT admission processes",
+        "admission",
+        "Process for admission",
+        "Admit in the college",
+        "Admit TINT",
+        "How to take admission in TINT",
+        "How to be eligible for admission in TINT",
+        "How to be eligible for admission in this college"
+      ],
+      "responses": [
+        "A new student at TINT can be admitted in three different possibilities.\n 1) One should have passed 10+2 or equivalent with 90% marks or a percentage.\n 2) Or If they passed any entrance exams like JEE Mains or WEBJEE with a good rank then they can join TINT as per the choice filling of their demand courses.\n 3) Through Direct Admission.\n For more information feel free to reach us at <a href=\"https://tint.edu.in/admission-at-tict.html\">https://tint.edu.in/admission-at-tict.html</a> or call at +91 9674112076/2079."
+      ]
+    },
+    {
+      "tag": "application",
+      "patterns": [
+        "How to apply for TINT",
+        "How to apply for this college",
+        "How to submit an online application for this college",
+        "How to submit an online application for TINT",
+        "How to schedule online booking of the seat",
+        "How to book online counseling",
+        "can you tell me about the online application for TINT",
+        "Online application for TINT",
+        "Online application for the college",
+        "How to book an appointment for online counseling",
+        "How we can directly book our seat online",
+        "How we can apply for different courses",
+        "How we can fill out a form for online application at TINT",
+        "Can you tell me about different courses form fill up",
+        "Can you say something about different courses application",
+        "Tell me about applications",
+        "How can one should apply online",
+        "How can a student or a parent can apply for counseling",
+        "Application form of this year",
+        "Application form for the upcoming year"
+      ],
+      "responses" : [
+        "You can directly apply from our website at <a href=\"https://applications.tint.edu.in/\">https://applications.tint.edu.in/</a>. \n Thank You for showing your interest in our college."
+      ]
+    },
+    {
+      "tag": "location_venue",
+      "patterns": [
+        "Where is TINT Located",
+        "What is the location of TINT",
+        "What is the venue of TINT",
+        "Where this college is situated",
+        "In which area this college is situated",
+        "Where is the exact location of TINT",
+        "Where is the exact location of this college",
+        "College location",
+        "College venue",
+        "College situated",
+        "TINT Location",
+        "TINT Venue",
+        "TINT situated",
+        "Can you tell me about the college venue",
+        "Can you tell me about the college address",
+        "What is the address of this college",
+        "How can we reach out to your college address",
+        "How can we reach out to this venue",
+        "How can we reach out to the TINT address",
+        "Can you help me out by sharing the exact location or venue or address",
+        "Can you tell me the exact destination address or venue or where it is situated",
+        "Can you share the map",
+        "Can you share the google location of the college",
+        "Will you provide the address or venue or destination to reach out there at your college premises",
+        "Google map location please",
+        "What is the geo-location for the college",
+        "Send the map",
+        "Send the address"
+      ],
+      "responses": [
+        "Techno International New Town or TINT is located at. \n Block - DG 1/1, Action Area 1 New Town, Rajarhat, Kolkata - 700156. \n You can also track the location through google map by following this below link. \n <a href=\"https://goo.gl/maps/qeVMWUxFWuJCmtez7\">https://goo.gl/maps/qeVMWUxFWuJCmtez7</a>"
+      ]
+    },
+    {
+      "tag": "college_feedback",
+      "patterns": [
+        "How can one should fill feedback form",
+        "Can you tell me about the feedback form of the college",
+        "Feedback form of the TINT",
+        "Can you tell me about feedback",
+        "How can we submit feedback form  of TINT college",
+        "Can you tell me about the feedback form",
+        "Feedback form",
+        "What is the process of filling feedback",
+        "Feedback filling process for parents or students as well visitors",
+        "TINT feedback form",
+        "College feedback form",
+        "How to give feedback about the college",
+        "How to give feedback about TINT"
+      ],
+      "responses": [
+        "You can give your precious feedback at <a href=\"https://tint.edu.in/institution/college-feedback.html\">https://tint.edu.in/institution/college-feedback.html</a>"
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "Tell me something about the departments available in TINT",
+        "Departments at TINT",
+        "Departments that are present in this college",
+        "Elaborate on Departments",
+        "How many Departments are available",
+        "Can you suggest something about departments",
+        "What is the number of departments",
+        "Departments available at TINT",
+        "Departments available in this college",
+        "Name some of the departments",
+        "What are the different departments available in this college",
+        "Departments at present",
+        "Departments that are presently there",
+        "List of departments available in college premises",
+        "List of departments available for the students",
+        "List of departments available for undergraduate and postgraduate courses",
+        "UG and PG departments available",
+        "Number of departments"
+      ],
+      "responses": [
+        "There is a total of 10 departments available at Techno International New Town for both undergraduate and postgraduate courses. \n Listing them below \n 1) Computer Science And Engineering \n 2) Electrical Engineering \n 3) Information Technology \n 4)Electronics And Communication Engineering \n 5) Mechanical Engineering \n 6) Applied Electronics and Instrumentation Engineering \n 7) Civil Engineering \n 8) Master of Computer Application \n 9) Basic Science and Humanities \n 10) Department of Business Management \n If you need more information feel free to reach at <a href=\"https://tint.edu.in/departments-at-tict.html\">https://tint.edu.in/departments-at-tict.html</a>"
+      ]
+    },
+    {
+      "tag": "Computer_Science_And_Engineering_Department_CSE",
+      "patterns": [
+        "Tell me something about the CSE department",
+        "Can you share some knowledge about the CSE department",
+        "Tell me something about the computer science and engineering department",
+        "Suggest something about the department of computer science",
+        "What are the specialization programs available in CSE",
+        "Why to choose CSE at TINT",
+        "Why choose CSE in your college",
+        "Information about the CSE department",
+        "How many faculties are there in CSE",
+        "How many faculties are there in the computer science and engineering department",
+        "What is the vision and mission of the CSE department",
+        "What is the vision and mission of the computer science department"
+      ],
+      "responses": [
+        "Welcome to the department of Computer Science And Engineering. \n The mission of the CSE department is to impart quality education and create an environment for student-centric learning. Also produces quality computer professionals capable of adapting to the changing environment and contributing to the growth of computing & allied industries. \n To know more about the department information and list of specialization courses as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/computer-science-and-engineering.html\">https://tint.edu.in/departments-at-tict/computer-science-and-engineering.html</a>"
+      ]
+    },
+    {
+      "tag": "Electrical_Engineering_Department_EE",
+      "patterns": [
+        "Tell me something about the EE department",
+        "Can you share some knowledge about the EE department",
+        "Tell me something about the Electrical Engineering department",
+        "Suggest something about the department of Electrical Engineering",
+        "What are the specialization programs available in EE",
+        "Why choose Electrical Engineering at TINT",
+        "Why choose Electrical Engineering in your college",
+        "Information about the Electrical Engineering department",
+        "How many faculties are there in Electrical Engineering",
+        "How many faculties are there in Electrical Engineering",
+        "What is the vision and mission of the Electrical Engineering department",
+        "What is the vision and mission of the Electrical Engineering department"
+      ],
+      "responses": [
+        "Welcome to the department of Electrical Engineering. \n The mission of the Electrical Engineering department is to impart quality education in concurrence with world-class upgraded technology and also develop energy-efficient management and environment. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/electrical-engineering.html\">https://tint.edu.in/departments-at-tict/electrical-engineering.html</a>"
+      ]
+    },
+    {
+      "tag": "Information_Technology_department_IT",
+      "patterns": [
+        "Tell me something about the Information Technology department",
+        "Can you share some knowledge about the Information Technology department",
+        "Tell me something about the Information Technology department",
+        "Suggest something about the department of Information Technology",
+        "What are the specialization programs available in IT",
+        "Why choose IT at TINT",
+        "Why choose IT in your college",
+        "Information about the Information Technology department",
+        "How many faculties are there in Information Technology",
+        "How many faculties are there in the Information Technology department",
+        "What is the vision and mission of the IT department",
+        "What is the vision and mission of the Information Technology department"
+      ],
+      "responses": [
+        "Welcome to the department of Information Technology. \n Information Technology is one of the most prestigious departments in Techno International NewTown. A perfect blend of research and industry-experienced faculties enrich this department that resulting in the overall growth of the department.. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/information-technology.html\">https://tint.edu.in/departments-at-tict/information-technology.html</a>"
+      ]
+    },
+    {
+      "tag": "Applied_Electronics_and_Instrumentation_Engineering_Department_AEIE",
+      "patterns": [
+        "Tell me something about the AEIE department",
+        "Can you share some knowledge about the Applied Electronics and Instrumentation Engineering department",
+        "Tell me something about the Applied Electronics and Instrumentation Engineering department",
+        "Suggest something about the department of Applied Electronics and Instrumentation Engineering",
+        "What are the specialization programs available in AEIE",
+        "Why choose AEIE at TINT",
+        "Why choose AEIE in your college",
+        "Information about the AEIE department",
+        "How many faculties are there in AEIE",
+        "How many faculties are there in Applied Electronics and Instrumentation Engineering",
+        "What is the vision and mission of the AEIE department",
+        "What is the vision and mission of the Applied Electronics and Instrumentation Engineering department"
+      ],
+      "responses": [
+        "Welcome to the department of Applied Electronics and Instrumentation Engineering. \n The Department of Applied Electronics And Instrumentation Engineering of Techno International New Town (formerly Techno India College of Technology) has been playing a vital role in producing capable technologists & researchers of the highest caliber to cater to the ever-challenging needs of technical excellence in all areas of Electronics Engineering such as Integrated circuits and Embedded systems, Robotics, Telecommunications, Computer Networking, Control & Automation, Power systems & Power electronics. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/applied-electronics-and-instrument-engg.html\">https://tint.edu.in/departments-at-tict/applied-electronics-and-instrument-engg.html</a>"
+      ]
+    },
+    {
+      "tag": "Mechanical_Engineering_Department_ME",
+      "patterns": [
+        "Tell me something about the ME department",
+        "Can you share some knowledge about the ME department",
+        "Tell me something about the Mechanical Engineering department",
+        "Suggest something about the department of Mechanical Engineering",
+        "What are the specialization programs available in ME",
+        "Why choose ME at TINT",
+        "Why choose ME in your college",
+        "Information about the ME department",
+        "How many faculties are there in ME",
+        "How many faculties are there in the Mechanical Engineering department",
+        "What is the vision and mission of the Mechanical Engineering department",
+        "What is the vision and mission of the Mechanical Engineering department"
+      ],
+      "responses": [
+        "Welcome to the department of Mechanical Engineering. \n The mission of the ME department is to foster a culture of innovation and creativity in mechanical engineering research and to collaborate with industry partners to develop new technologies and solutions to real-world problems. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/mechanical-engineering.html\">https://tint.edu.in/departments-at-tict/mechanical-engineering.html</a>"
+      ]
+    },
+    {
+      "tag": "Civil_Engineering_Department_CE",
+      "patterns": [
+        "Tell me something about the CE department",
+        "Can you share some knowledge about the CE department",
+        "Tell me something about the Civil Engineering department",
+        "Suggest something about the department of Civil Engineering",
+        "What are the specialization programs available in CE",
+        "Why choose Civil Engineering at TINT",
+        "Why choose Civil Engineering in your college",
+        "Information about the CE department",
+        "How many faculties are there in CE",
+        "How many faculties are there in the Civil Engineering department",
+        "What is the vision and mission of the CE department",
+        "What is the vision and mission of the Civil Engineering department"
+      ],
+      "responses": [
+        "Welcome to the department of Civil Engineering. \n The mission of the CE department is To conduct high-quality research that contributes to the advancement of the civil engineering field, and that addresses the needs and challenges of society. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/civil-engineering.html\">https://tint.edu.in/departments-at-tict/civil-engineering.html</a>"
+      ]
+    },
+    {
+      "tag": "Electronics_And_Communication_Engineering_Department_ECE",
+      "patterns": [
+        "Tell me something about the ECE department",
+        "Can you share some knowledge about the ECE department",
+        "Tell me something about the Electronics And Communication Engineering department",
+        "Suggest something about the department of Electronics And Communication Engineering",
+        "What are the specialization programs available in ECE",
+        "Why choose ECE at TINT",
+        "Why choose ECE in your college",
+        "Information about the ECE department",
+        "How many faculties are there in ECE",
+        "How many faculties are there in the Electronics And Communication Engineering department",
+        "What is the vision and mission of the ECE department",
+        "What is the vision and mission of Electronics And Communication Engineering"
+      ],
+      "responses": [
+        "Welcome to the department of Electronics And Communication Engineering. \n The mission of the ECE department is to provide a rigorous and innovative education in electronics and communication engineering that prepares students for successful careers in the field or for advanced studies. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/electronics-and-comm-engg.html\">https://tint.edu.in/departments-at-tict/electronics-and-comm-engg.html</a>"
+      ]
+    },
+    {
+      "tag": "Bachelor_of_Computer_Application_Department_BCA",
+      "patterns": [
+        "Tell me something about the BCA department",
+        "Can you share some knowledge about the BCA department",
+        "Tell me something about the Bachelor of Computer Application department",
+        "Suggest something about the department of Bachelor of Computer Application",
+        "What are the specialization programs available in BCA",
+        "Why choose BCA at TINT",
+        "Why choose BCA in your college",
+        "Information about the BCA department",
+        "How many faculties are there in BCA",
+        "How many faculties are there in the Bachelor of Computer Application department",
+        "What is the vision and mission of the BCA department",
+        "What is the vision and mission of the Bachelor of Computer Application department"
+      ],
+      "responses": [
+        "Welcome to the department of Bachelor of Computer Application. \n The mission of the BCA department is to equip students with the necessary technical and analytical skills to develop and manage software applications and to integrate them with various hardware and networking systems. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/bachelor-of-computer-application.html\">https://tint.edu.in/departments-at-tict/bachelor-of-computer-application.html</a>"
+      ]
+    },
+    {
+      "tag": "Master_of_Computer_Application_Department_MCA",
+      "patterns": [
+        "Tell me something about the MCA department",
+        "Can you share some knowledge about the MCA department",
+        "Tell me something about the Master of Computer Application department",
+        "Suggest something about the department of Master of Computer Application",
+        "What are the specialization programs available in MCA",
+        "Why choose MCA at TINT",
+        "Why choose MCA in your college",
+        "Information about the MCA department",
+        "How many faculties are there in MCA",
+        "How many faculties are there in the Master of Computer Application department",
+        "What is the vision and mission of the MCA department",
+        "What is the vision and mission of the Master of Computer Application department"
+      ],
+      "responses": [
+        "Welcome to the department of Master of Computer Application. \n The mission of the MCA department is to provide a comprehensive education in computer applications that prepares students for leadership positions in the IT industry or for advanced studies in the field. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/master-of-computer-application.html\">https://tint.edu.in/departments-at-tict/master-of-computer-application.html</a>"
+      ]
+    },
+    {
+      "tag": "Basic_Science_and_Humanities_BSH",
+      "patterns": [
+        "Tell me something about the BSH department",
+        "Can you share some knowledge about the BSH department",
+        "Tell me something about the Bachelor of Basic Science and Humanities department",
+        "Suggest something about the department of Basic Science and Humanities",
+        "What are the specialization programs available in BSH",
+        "Why choose BSH at TINT",
+        "Why choose BSH in your college",
+        "Information about the BSH department",
+        "How many faculties are there in BSH",
+        "How many faculties are there in the Basic Science and Humanities department",
+        "What is the vision and mission of the BSH department",
+        "What is the vision and mission of the Basic Science and Humanities department"
+      ],
+      "responses": [
+        "Welcome to the department of Bachelor of Computer Application. \n The Department of Basic Sciences and Humanities, at Techno International NewTown (TINT), believes in a holistic approach to the overall well-being of the newly admitted students. The department offers basic undergraduate-level courses in Mathematics, Physics, Chemistry, and Humanities (English) to all the 1st year engineering streams. \n To know more about the department information as well as the course duration reach out to our website at <a href=\"https://tint.edu.in/departments-at-tict/basic-science-and-humanities.html\">https://tint.edu.in/departments-at-tict/basic-science-and-humanities.html</a>"
+      ]
+    },
+    {
+      "tag": "Training_and_Placement",
+      "patterns": [
+        "How about training and placements at TINT",
+        "How about training and placements in this college",
+        "Tell me about training and placements of TINT",
+        "Training authority of TINT",
+        "Placement authority of TINT",
+        "Say something on training and placements of TINT",
+        "Training and placements at TINT",
+        "Is TINT provides training and placements",
+        "Is TINT provides Placements",
+        "Is this Institution good for its placements",
+        "Is this institution good for its training programs",
+        "What are the training programs available in TINT",
+        "Tell me about the campus placements of TINT",
+        "Say something about the campus training at TINT",
+        "How are the campus placements at TINT",
+        "Is this institution good for its campus placements",
+        "What are the companies that visit for giving placements",
+        "What are the on-campus placements companies",
+        "Campus placements companies at TINT",
+        "TINT campus placements",
+        "College campus placements",
+        "What are the companies that come in TINT",
+        "What are the major hiring companies that come at TINT",
+        "What are the major hiring companies that come at this institution",
+        "What are the major hiring companies that come at this college"
+      ],
+      "responses": [
+        "The primary goal of the Training and Placement Cell at Techno International New Town (Formerly known as Techno India College of Technology) is to provide personal and career-related support to its students. The College Placement Cell makes every effort to bring in as many Companies from varied industries (Especially Software and Core Engineering) as possible to match the expectations and aspirations of the students, although, Placement is depending on the requirement of the Market. \n The major hiring companies are listed below \n 1) TCS \n 2) Wipro \n 4) Infosys \n 5) Capgemini \n 6) Syntel \n 7) Accenture \n 8) Zycus \n 9) Johnson Controls \n 10) IBM \n 11) 12) MICROSOFT \n All details of the placements at TINT are available at <a href=\"https://tint.edu.in/placement-at-tict.html\">https://tint.edu.in/placement-at-tict.html</a>"
+      ]
+    },
+    {
+      "tag": "Semester_Payment",
+      "patterns": [
+        "Is TINT provides an online payment facility",
+        "Where can I pay the semester fee",
+        "What is the payment link for semester fee payment",
+        "Payment link for paying semester fees",
+        "How can we pay the current semester fees",
+        "What are the procedures for paying the semester fees online",
+        "How to pay the college fees through payment portal",
+        "Process to be followed for the semester fees online",
+        "What is the mode of payment for paying the semester fees",
+        "How can a student with an education loan can pay the semester fees",
+        "How can we pay the semester fee payment through demand draft",
+        "How we can pay the B.tech semester fee to our college",
+        "How can we pay the business management course fee to our college"
+      ],
+      "responses": [
+        "Semester fee payment for the courses can be directly done through our payment portal. \n Payment process is given below. \n 1) Students who have an education loan are allowed to pay the semester fees directly through NEFT as per the bank rules and regulations. But must submit the transaction details to the college office for receipt generation. \n 2) Those students who are paying semester fees for B.Tech (All), M.Tech (All), and BBA/BCA are allowed to pay at <a href=\"https://tint.techtron.net/\">https://tint.techtron.net/</a> by providing their login credentials at the payment gateway portal. \n 3) Those students who are paying semester fees for BBA/BCA (2019-20, 2020-21 Admission), BSc Data Science (2019-20, 2020-21 Admission), and BSc Cyber Security are allowed to pay their semester fees at <a href=\"https://tict.techtron.net/\">https://tict.techtron.net/</a> by providing their login credentials. \n 4) For Demand Draft payment one should submit it directly to the college office."
+      ]
+    },
+    {
+      "tag": "Semester_Receipt",
+      "patterns": [
+        "How can a student download semester money receipt",
+        "How to download semester fee receipt",
+        "Where can I get the semester fee receipt",
+        "Download semester fee receipt",
+        "Money receipt of the fee payment",
+        "How to find the money receipt",
+        "Download money receipt",
+        "Where can I find the money receipt for the current semester fee payment",
+        "Current semester fee payment receipt",
+        "Receipt download",
+        "Download money receipt",
+        "Education loan money receipt for semester fee payment",
+        "Demand draft money receipt for fee payment"
+      ],
+      "responses": [
+        "1) Those students who are paying their semester fees through education loans must submit their transaction details to the concerned department as well as the college office for the generation of the money receipt. \n 2) For those who are paying the semester fees through the college gateway link their money receipt will be generated at the same time. \n 3) Those who are paying the semester fees through demand draft will get the money receipt from the concerned official staff."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What are the payment methods that are accepted",
+        "What are the available payment methods accepted",
+        "Is cash acceptable",
+        "Can I pay the semester fees in cash",
+        "Is cash payment work in TINT",
+        "Is the demand draft accepted",
+        "Is NEFT accepted",
+        "Is Net Banking accepted for semester fee payment",
+        "Is a VISA card accepted for semester fee payment",
+        "Is UPI accepted for semester fee payment",
+        "Is Rupay card accepted for semester fee payment",
+        "Is Credit card accepted for semester fee payment",
+        "Is Mastercard accepted for semester fee payment"
+      ],
+      "responses": [
+        "1) There are several modes of payments available in the college gateway portal like VISA, Mastercard, Rupay, UPI, and Credit cards also. \n 2) NEFT payments are also accepted in the case of education loans. 3) Demand Drafts are also accepted. 4) Cash is not acceptable for semester fee payment."
+      ]
+    },
+    {
+      "tag": "About_TINT_Library",
+      "patterns": [
+        "Tell me something about TINT Library",
+        "Library Infrastructure",
+        "Can you please give some information related to the TINT library",
+        "Information regarding TINT library",
+        "TINT library",
+        "College Library",
+        "How many books are available in the TINT library",
+        "How many books are available in the college library",
+        "Is e-books are provided",
+        "Is it a central library",
+        "What is the size of the library",
+        "Are there computer systems present in the library",
+        "Is it an automated library"
+      ],
+      "responses": [
+        "1) The college has a Central Library of its own which started its journey at the main building in August 2005 and shifted to the ground floor of the annex building in 2018. \n 2) t has a carpet area of about 7056 sq. ft. (655 sq.mt.) with a Reading Room of about 2406 sq. ft. (223 sq.mt.) which can accommodate almost 60 readers at a time. \n 3) The library's primary goal is to cater to the educational needs of the teachers, students, and staff. 4) To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "TINT_Library_Resources",
+      "patterns": [
+        "What are the resources available in the library",
+        "Is the TINT library full of resources",
+        "What is the number of volumes and titles present in the library",
+        "Library resources",
+        "Resources that are available for the library",
+        "College library resources",
+        "Resources available in the library",
+        "Can you tell me about the library resources",
+        "Share the number of volumes and tiles present",
+        "Say something about the journals present in the library",
+        "What are the titles and volumes present in the TINT library",
+        "What are the resources available in the TINT library",
+        "List of the resources available in TINT library",
+        "List of volumes present in TINT library",
+        "TINT library resources"
+      ],
+      "responses": [
+        "1) The resources of the library are very vast. \n 2) The library has a total collection of 47,000 volumes and about 4000 titles at present. \n 3) There are mainly two categories of books – texts, and references. The textbooks are mainly for lending purposes and are arranged in the stack room. The reference category includes books on various competitive examinations, general knowledge, dictionaries, handbooks, encyclopedias, newsletters, CDs, etc. \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "TINT_Library_Hours",
+      "patterns": [
+        "When the TINT library opens",
+        "When the college library opens",
+        "What is the timing of the college library",
+        "What is TINT library timings",
+        "On which days the library is open",
+        "TINT library closed days",
+        "TINT library open days",
+        "College library in which days it is open",
+        "Is it open on weekends",
+        "Is the library open for weekends also",
+        "Timings and hours of the college library",
+        "Hours of the library",
+        "Timing of the library"
+      ],
+      "responses": [
+        "The library remains open on all weekdays and remains closed on Sundays and other Institute Holidays. \n The schedules are given below. \n Monday to Friday: 09:30 A.M – 06:00 P.M \n Saturday: 10:00 A.M – 5:00 P.M \n Circulation Hours: 10:00 P.M – 05:00 P.M \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "TINT_Library_General_Rules_And_Regulations",
+      "patterns": [
+        "What are the general rules and regulations in the TINT library",
+        "Rules and regulations of the college library",
+        "Rules and regulations of the college library",
+        "Rules of the TINT library",
+        "Rules of the college Library",
+        "Regulations of the college library",
+        "General rule that must be followed for the college library",
+        "General rules that are advised for the students of the TINT library",
+        "Rules and regulations advised for the students of TINT or college"
+      ],
+      "responses": [
+        "1) Working Hours:  The library remains open from 09:30 am to 06:30 pm on every working day except Sundays and holidays. Circulation hours are fixed from 10:00 am to 5:00 pm. \n 2) Keep Silence: Silence must be maintained inside the library. Chatting or gossiping and loitering in the library is strictly prohibited. Users should keep in mind that the library is under electronic surveillance. \n 3) Bags are not allowed inside the library. They are to be kept in the place provided outside the library. However, they may carry their valuables like mobiles, laptops, purses, and other personal belongings inside the reading room. Authorities will not be responsible for any kind of theft of personal belongings inside or outside the library. \n 4) Mobile phones should be kept in silent mode inside the reading room. Attending phone calls or playing songs or movies or videos on laptops/mobiles / iPods etc. inside the reading room is strictly prohibited. \n 5) Refreshments of any kind shall not be taken on the library premises. \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "About_TINT_Library_Student_Membership_Card",
+      "patterns": [
+        "Tell me how to get a membership at TINT library",
+        "How to take membership at TINT library",
+        "Steps must be followed to take membership at TINT library",
+        "Student membership card for TINT library",
+        "How to apply for membership of TINT library",
+        "TINT student membership card for the library",
+        "Share something about the student membership card for the TINT library",
+        "How the membership card of the TINT library is issued to the students",
+        "How to avail the benefits of a student membership card",
+        "Where to apply for the student membership card for TINT library",
+        "Student membership card for the library of the college"
+      ],
+      "responses": [
+        "1) A membership card will be provided to the students upon producing the photocopy of the admission receipt of the college and of address proof. \n 2) Membership card is to be filled up legibly and in accordance with the instruction given. \n 3) Two stamp-size color photographs are required at the time of filling up of membership card. Without photos, the cards will not be valid. \n 4) Every student of the college using the reading room or lending section must produce his / her membership card on demand. No service will be entertained to them without a proper membership card. \n 5) The membership card is not transferable i.e. students must use their own membership card. One cannot issue books and other documents showing another membership card. In such cases, a proper authorization letter must be shown to the concerned library staff. \n 6)In case of loss of a membership card duplicate cards will be issued against a General Diary Report from the Local Police Station along with a fine of Rs. 50/- (electronic membership card) or Rs. 10/- (normal membership card). \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "About_TINT_Library_Faculty_Membership_Card",
+      "patterns": [
+        "How the faculty members can issue their membership card for the library",
+        "Faculty member library membership card",
+        "Can you tell me about the faculty membership card of the library at TINT",
+        "How the faculty can avail benefits of library membership card",
+        "How to take advantage of a Library membership card for the faculty membership",
+        "How to get the faculty membership card for the TINT Library"
+      ],
+      "responses": [
+        "1) A faculty member / non-teaching staff seeking membership in the college library must produce a photocopy of his / her appointment letter and two stamp-size color photographs. \n 2) Loss of a library card should be reported at once in writing. A duplicate card will be issued to the concerned member at no extra cost. \n To know more about the TINT library reach out to our website at https://tint.edu.in/academics/library.html"
+      ]
+    },
+    {
+      "tag": "Borrowing_facility_for_Students_TINT_Library",
+      "patterns": [
+        "What is the borrowing facility for the students of TINT in the library",
+        "Borrowing facility for the students of TINT Library",
+        "Borrowing facility of student member at TINT",
+        "Borrowing facility for the students at this college",
+        "How many books a student can borrow from this college",
+        "How many books a student can avail at a time",
+        "Number of books that are allowed to take by the students from the TINT library",
+        "How the books are given to students"
+      ],
+      "responses": [
+        "1) Books will be issued on a first-come-first-served basis. \n 2) A maximum of Eight (8) books will be issued (subject to availability) to the students at a time for lending which can be kept up to the semester exam. \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "Borrowing_facility_for_faculty_TINT_Library",
+      "patterns": [
+        "What is the borrowing facility for the faculty of TINT in the library",
+        "Borrowing facility for the faculty of TINT Library",
+        "Borrowing facility of student member at TINT",
+        "Borrowing facility for the faculty at this college",
+        "How many books a student can borrow from this college",
+        "How many books a student can avail at a time",
+        "Number of books that are allowed to take by the faculty from the TINT library",
+        "How the books are given to faculties"
+      ],
+      "responses": [
+        "1) Faculty members can issue a maximum of ten (10) books at a time for the period of one month which may be renewed thereafter. \n 2) Part-Time / Contractual / Probationary / Visiting / Guest Faculty members can issue 2 books at a time for a period of one month. They have to submit the books to the library on or before the last date of the contract. (The lending rules for the Part Time / Contractual / Probationary / Visiting / Guest Faculty members will be communicated through a circular from time to time.) \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "Borrowing_facility_for_other_resources_TINT_Library",
+      "patterns": [
+        "What is the borrowing facility for other resources of TINT in the library",
+        "Borrowing facility for the other resources of TINT Library",
+        "Borrowing facility for the other resources at this college",
+        "How many reference books, periodicals, electronic resources, and question papers can be borrowed from this college library",
+        "How many reference books a student can avail at a time",
+        "Number of reference books, periodicals, electronic resources, and question papers that are allowed to take by the faculty as well as the students from the TINT library"
+      ],
+      "responses": [
+        "1) Reference Books: Reference books can be borrowed for a limited period (7 days) depending upon the demand and availability of the concerned book. \n 2) Periodicals: Periodicals (Journals / Magazines / Newspapers) cannot be issued to the members. They are to be used in the reading room only. \n 3) Electronic Resources: eBooks, Online Journals, and CDs/DVDs forms the electronic resources which are available in the digital section of the library. CDs/DVDs (available with books and magazines) can be issued to the members for a limited period. \n 4) Questions Papers: The library has a repository of previous years' university question papers (soft copy) which are available in the digital section of the library. \n 5) Proper entries are to be made in the reading room issue register and periodicals issue register before using the reference books and periodicals respectively. These will help the library authorities to keep a record of the daily utilization of resources. \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "Returning_Of_Books_In_TINT_Library",
+      "patterns": [
+        "What are the returning rules of the books for the student as well as the faculties",
+        "How to return the books of the library",
+        "How to return books at TINT Library",
+        "Procedures of returning the books",
+        "Book returning process",
+        "Student member book returning process",
+        "Faculty member book returning process",
+        "Can you tell me about the returning of books",
+        "What is the returning policy of books",
+        "Books returning policy of TINT_Library",
+        "Library book returning policy"
+      ],
+      "responses": [
+        "1) Books should be returned or renewed within the stipulated date stamped on the due date slip, otherwise a fine of Re. 1/- will be imposed on the students per day for each book till the return of the book. However, there is no fine system for faculty members. \n 2) If the book is lost or damaged or badly mutilated after lending from the library, the last borrower of the book will be held responsible. He/she should replace the book in good condition \n 3) If the book is in demand, the period of the loan cannot be extended. \n 4) Books issued for reading purposes cannot be taken outside the library. If found, a fine of Rs. 2/- will be imposed on the student per book per day till the submission of the book. \n 5) If the book is found to be damaged or badly mutilated during lending, it should be immediately brought to the notice of the concerned library staff. \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "TINT_Library_Software",
+      "patterns": [
+        "In which software TINT library works",
+        "TINT library software",
+        "In which software TINT library is situated",
+        "In which software is the updation of student records of book issue or returning and fine details are recorded",
+        "Which software is available for TINT Library records"
+      ],
+      "responses": [
+        "The library is automated using TCSiON software (cloud-based) implemented in 2022. Previously we were using LibSys (LSEase/C [Rel .3] and shifted to TCSiON in 2022. \n To know more about the TINT library reach out to our website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>"
+      ]
+    },
+    {
+      "tag": "Digital_TINT_Library",
+      "patterns": [
+        "Tell me something about the digital library at TINT",
+        "Digital Library at TINT",
+        "Digital library in this college",
+        "How the digital library works in TINT",
+        "Can you say something about the digital library at TINT"
+      ],
+      "responses": [
+        "For digital library information please directly visit our college website at <a href=\"https://tint.edu.in/academics/library.html\">https://tint.edu.in/academics/library.html</a>."
+      ]
+    },
+    {
+      "tag": "TINT_Canteen",
+      "patterns": [
+        "Can you share something about the TINT canteen",
+        "Is there a canteen available at this college",
+        "Is there any foods facility in this TINT college",
+        "How many canteens are present in this TINT college",
+        "What is the food menu available in this canteen",
+        "Is canteen food hygienic",
+        "Can you tell me about the college canteen",
+        "What you serve in this canteen",
+        "What are the products this canteen has",
+        "What is the menu list of this canteen",
+        "What is the name of this canteen",
+        "Where the canteen is located inside or outside the college campus",
+        "Is it vegetarian or non-vegetarian canteen",
+        "Veg meals are available or not in the canteen",
+        "Non-veg meals are available or not in the canteen",
+        "What are the food facilities in TINT"
+      ],
+      "responses": [
+        "Canteen facilities are an essential part of any college, So TINT provides students with a place to get food and drinks. \n 1) Name of the canteen that is available on our campus is Food Addict have large, well-equipped canteens with a wide range of food options. \n 2) Students with dietary restrictions or preferences, such as vegetarian, vegan, or gluten-free options at Food Addict corner. \n To know more about the list of menu please visit our canteen."
+      ]
+    },
+    {
+      "tag": "TINT_Cafeteria",
+      "patterns": [
+        "Can you share something about the TINT Cafeteria",
+        "Is there a Cafeteria available at this college",
+        "Is there any Cafeteria facility in this TINT college",
+        "How many Cafeteria are present in this TINT college",
+        "What is the food menu available in this Cafeteria",
+        "Is Cafeteria food hygienic",
+        "Can you tell me about the college Cafeteria",
+        "What you serve in this Cafeteria",
+        "What are the products this Cafeteria has",
+        "What is the menu list of this Cafeteria",
+        "What is the name of this Cafeteria",
+        "Where the Cafeteria is located inside or outside the college campus",
+        "Is it vegetarian or non-vegetarian Cafeteria",
+        "Veg meals are available or not in Cafeteria",
+        "Non-veg meals are available or not in Cafeteria",
+        "What are the Cafeteria facilities in TINT"
+      ],
+      "responses": [
+        "Cafeteria facilities are an essential part of any college, So TINT provides students with a place to get food and drinks. \n 1) Name of the Cafeteria that is available on our campus is Melbourne has a large, well-equipped Cafeteria with a wide range of food options including hot meals, sandwiches, salads, and snacks.. \n 2) Students with dietary restrictions or preferences, such as vegetarian, vegan, or gluten-free options at Food Addict corner. \n To know more about the list of menu please visit our Cafeteria."
+      ]
+    },
+    {
+      "tag": "Holiday_Calender",
+      "patterns": [
+        "Tell me about the holidays",
+        "Can you say about the holidays in the year",
+        "In which days college is off",
+        "What was the recent holiday calender",
+        "Tell me about the MAKAUT Holiday list",
+        "List of holidays",
+        "How many holidays are available",
+        "Holidays that are available in this college",
+        "MAKAUT holiday calender",
+        "Holiday calender",
+        "Festival calendar for holidays",
+        "National holidays for the college",
+        "College holidays",
+        "TINT holidays"
+      ],
+      "responses": [
+        "To know about the college holidays. \n Please visit the website at <a href=\"https://makautwb.ac.in/big_files/Holiday%20list%202023.pdf\">https://makautwb.ac.in/big_files/Holiday%20list%202023.pdf</a>"
+      ]
+    },
+    {
+      "tag": "Academic_Calender",
+      "patterns": [
+        "Tell me about the academic calendar",
+        "Can you say about the academic calendar for the present year",
+        "Suggest something about the academic calendar",
+        "What was the recent academic calendar",
+        "Tell me about the MAKAUT academic calendar list",
+        "List of all dates as per the academic calendar",
+        "Academic calendars are available or not",
+        "Academic calendar that is available in this college",
+        "MAKAUT academic calendar",
+        "Academic Calendar",
+        "Academic Calendar for examinations",
+        "Academic Calendar for the college",
+        "College academic calendar",
+        "TINT academic calendar",
+        "Exams academic calendar",
+        "CA exam calendar",
+        "PCA exam calendar"
+      ],
+      "responses": [
+        "The academic calendar for the present session is available at <a href=\"https://makautwb.ac.in/big_files/Academic%20Calendar%202022-23.pdf\">https://makautwb.ac.in/big_files/Academic%20Calendar%202022-23.pdf</a>"
+      ]
+    },
+    {
+      "tag": "Syllabus",
+      "patterns": [
+        "What is the syllabus for the B.Tech courses",
+        "B.Tech syllabus",
+        "BCA syllabus",
+        "MCA syllabus",
+        "M.Tech syllabus",
+        "Where can I find the syllabus for my semester",
+        "Syllabus of my current semester",
+        "All semesters syllabus",
+        "How to download syllabus",
+        "MAKAUT Syllabus",
+        "College syllabus for all streams",
+        "All streams syllabus",
+        "TINT syllabus for all subjects",
+        "Subject syllabus",
+        "List of all the syllabus",
+        "Can you tell me about the syllabus of all the streams",
+        "Syllabus of all streams",
+        "All courses syllabus",
+        "UG courses syllabus",
+        "PG courses syllabus",
+        "Undergraduate syllabus",
+        "Pos-graduate syllabus"
+      ],
+      "responses": [
+        "Find your syllabus for all undergraduate as well as postgraduate courses at <a href=\"http://makautexam.net/new_syllabus.html\">http://makautexam.net/new_syllabus.html</a>"
+      ]
+    },
+    {
+      "tag": "Faculty_Members",
+      "patterns": [
+        "Tell me about the faculty members of the college",
+        "TINT faculty members of the college",
+        "College faculty members",
+        "How many faculties are present at TINT",
+        "Can you share something about the faculty members of our college",
+        "Say something about the faculties at TINT",
+        "Say something about the faculties at this college",
+        "Information about the faculties",
+        "All department faculties information",
+        "Information of each faculty in this college",
+        "Appropriate information about the college faculties",
+        "list of all the faculty members at TINT college"
+      ],
+      "responses": [
+        "There is a total of 155 faculty members who are presently serving their knowledge of expertise to our students of Techno International New Town. \n If you want to know more feel free to visit our faculty members' website at <a href=\"https://tint.edu.in/academics/tint-faculty-members.html\">https://tint.edu.in/academics/tint-faculty-members.html</a>"
+      ]
+    },
+    {
+      "tag": "Anti_Ragging_Committees",
+      "patterns": [
+        "What are the key factors of anti-ragging",
+        "Is the campus ragging free",
+        "Is the college is ragging free campus",
+        "Tell me about the anti-ragging guidelines",
+        "What are the rules and regulations of anti-ragging at TINT",
+        "Anti-ragging rules and regulations of TINT",
+        "Anti-ragging committees information at TINT",
+        "Anti-ragging committees in TINT",
+        "TINT committee for anti-ragging",
+        "College anti-ragging facilities",
+        "College is ragging free zone",
+        "Is ragging happening on our college campus",
+        "Ragging happens ?",
+        "Can you tell me about the anti-ragging committee",
+        "Anti-ragging committees members information",
+        "Anti-ragging committees members information of TINT",
+        "TINT anti-ragging calling numbers of all the members"
+      ],
+      "responses": [
+        "Techno International New Town is a ragging-free campus. You need not worry about ragging. There is also an anti-ragging committee in our college for helping students. To know more about the rules and regulations as well as committees information please reach out to our website at <a href=\"https://tint.edu.in/committees/antiragging-committee-guidelines.html\">https://tint.edu.in/committees/antiragging-committee-guidelines.html</a>"
+      ]
+    },
+    {
+      "tag": "Campus_Life_At_TINT_Tour",
+      "patterns": [
+        "Can you provide a campus tour video",
+        "Send some campus photos and videos",
+        "How is the campus life at TINT",
+        "TINT campus life",
+        "Campus tour at TINT",
+        "Campus life at TINT",
+        "Campus life in this college",
+        "What about the campus life at TINT",
+        "TINT Campus tour",
+        "Tell me about the campus life at TINT"
+      ],
+      "responses": [
+        "Here is the video link of our Techno International New Town campus tour <a href=\"https://tint.edu.in/campus-life/tint-campus-tour.html\">https://tint.edu.in/campus-life/tint-campus-tour.html</a>. \n Please visit the above link to know about campus life."
+      ]
+    },
+    {
+      "tag": "Academic_Committee",
+      "patterns": [
+        "Academic committees at TINT",
+        "Who supervises the academic things",
+        "Who is under the academic works",
+        "Who looks after the academic work",
+        "Academic committees at TINT",
+        "Academic committees at this college",
+        "Contact numbers of academic committees",
+        "Can you tell me about the academic committees",
+        "Academic committees information",
+        "Info related to academic committees"
+      ],
+      "responses": [
+        "There are many members who are working and looking after the academic activities, the names and contact details for the same are available at <a href=\"https://tint.edu.in/committees/academic-committee.html\">https://tint.edu.in/committees/academic-committee.html</a>"
+      ]
+    },
+    {
+      "tag": "Disciplinary_Committee",
+      "patterns": [
+        "Disciplinary Committee at TINT",
+        "Who supervises the Disciplinary Committee things",
+        "Who is under the Disciplinary works",
+        "Who looks after the Disciplinary work",
+        "Disciplinary Committee at TINT",
+        "Disciplinary Committee at this college",
+        "Contact numbers of Disciplinary Committee",
+        "Can you tell me about the Disciplinary Committee",
+        "Academic committees information",
+        "Info related to Disciplinary Committee"
+      ],
+      "responses": [
+        "There are many members who are working and looking forward to the Disciplinary activities, the names and contact details for the same are available at <a href=\"https://tint.edu.in/committees/disciplinary-committee.html\">https://tint.edu.in/committees/disciplinary-committee.html</a>"
+      ]
+    },
+    {
+      "tag": "Cultural_Committee",
+      "patterns": [
+        "Cultural Committee at TINT",
+        "Who supervises the Cultural activities things",
+        "Who is under the Cultural activities works",
+        "Who looks after the Cultural activities work",
+        "Cultural Committees at TINT",
+        "Cultural Committee at this college",
+        "Contact numbers of Cultural Committee",
+        "Can you tell me about the Cultural Committee",
+        "Cultural Committee information",
+        "Info related to Cultural Committee"
+      ],
+      "responses": [
+        "There are many members who are working and looking after the Cultural activities, the names and contact details for the same are given at <a href=\"https://tint.edu.in/committees/cultural-committee.html\">https://tint.edu.in/committees/cultural-committee.html</a>"
+      ]
+    },
+    {
+      "tag": "Examination_Committee",
+      "patterns": [
+        "Examination Committee at TINT",
+        "Who supervises the Examination activities things",
+        "Who is under the Examination activities works",
+        "Who looks after the Examination activities work",
+        "Examination Committee at TINT",
+        "Examination Committee at this college",
+        "Contact numbers of Examination Committee",
+        "Can you tell me about the Examination Committee",
+        "Examination Committee information",
+        "Info related to Examination Committee",
+        "Tell me about the examination department",
+        "Can you share something about the examination department at TINT college"
+      ],
+      "responses": [
+        "There are many members who are working and looking after the Examination activities, the names and contact details for the same are available at <a href=\"https://tint.edu.in/committees/examination-committee.html\">https://tint.edu.in/committees/examination-committee.html</a>"
+      ]
+    },
+    {
+      "tag": "Library_Committee",
+      "patterns": [
+        "Library Committee at TINT",
+        "Who supervises the Library activities things",
+        "Who is under the Library activities works",
+        "Who looks after the Library activities work",
+        "Library Committee at TINT",
+        "Library Committee at this college",
+        "Contact numbers of Library Committee",
+        "Can you tell me about the Library Committee",
+        "Library Committee information",
+        "Info related to Library Committee",
+        "Tell me about the Library Committee department",
+        "Can you share something about the Library Committee department at TINT college"
+      ],
+      "responses": [
+        "There are many members who are working and looking after the Library activities, the names and contact details for the same are available at <a href=\"https://tint.edu.in/committees/library-committee.html\">https://tint.edu.in/committees/library-committee.html</a>"
+      ]
+    },
+    {
+      "tag": "Sports_Committee",
+      "patterns": [
+        "Sports Committee at TINT",
+        "Who supervises the Sports activities things",
+        "Who is under the Sports activities works",
+        "Who looks after the Sports activities work",
+        "Sports Committee at TINT",
+        "Sports Committee at this college",
+        "Contact numbers of Sports Committee",
+        "Can you tell me about the Sports Committee",
+        "Sports Committee information",
+        "Info related to Sports Committee",
+        "Tell me about the Sports Committee department",
+        "Can you share something about the Sports Committee department at TINT college"
+      ],
+      "responses": [
+        "There are many members who are working and looking after the Sports activities, the names and contact details for the same are available at <a href=\"https://tint.edu.in/committees/sports-committee.html\">https://tint.edu.in/committees/sports-committee.html</a>"
+      ]
+    },
+    {
+      "tag": "Internal_Complaints_Committee",
+      "patterns": [
+        "Internal Complaints Committee at TINT",
+        "Who supervises the Internal Complaints activities things",
+        "Who is under the Internal Complaints activities works",
+        "Who looks after the Internal Complaints activities work",
+        "Internal Complaints Committee at TINT",
+        "Internal Complaints Committee at this college",
+        "Contact numbers of Internal Complaints Committee",
+        "Can you tell me about the Internal Complaints Committee",
+        "Internal Complaints Committee information",
+        "Info related to Internal Complaints Committee",
+        "Tell me about the Internal Complaints Committee department",
+        "Can you share something about the Internal Complaints Committee department at TINT college"
+      ],
+      "responses": [
+        "There are many members who are working and looking after the Internal Complaints activities, the names and contact details for the same are available at <a href=\"https://tint.edu.in/committees/internal-complaints-committee.html\">https://tint.edu.in/committees/internal-complaints-committee.html</a>"
+      ]
+    },
+    {
+      "tag": "Facilities_at_TINT",
+      "patterns": [
+        "What are the facilities that TINT provides to the students",
+        "Facilities available TINT corner",
+        "What are the current facilities at TINT",
+        "What are the facilities available in this college",
+        "College facilities",
+        "TINT college facilities",
+        "Facilities available in this campus",
+        "Tell me in short about the campus facilities"
+      ],
+      "responses": [
+        "Techno International New Town is situated in the heart of the city, with the perfect location, about 2 minutes from Biswa Bangla Gate. \n There are many facilities available on our college premises that are listed below \n 1) Hostel facilities: Separate hostel facilities are provided for Boys and Girls on the college campus. \n 2) Transport facilities: Bus is available for easy accessibility for students. \n 3) Cafeteria and canteen: The canteen facility is available and open throughout with both vegetarian and non-vegetarian food for students. \n 4) Playground: We have a great campus for all indoor and outdoor gaming facilities, which includes, badminton, table tennis, carom, a neat basketball court, and a football ground. \n 5) Extra curriculum: TINT is full of talent and extra curriculum activities. We have a Cultural club, Hridmajhare Music club, Photographic club, Aesthetica Arts Club, Entrepreneur Club, Litwits Drama, and Literary club, etc, with great participation of students. \n 6) Library: TINT has provided a central library consisting of more than 40,000 volumes of books and an adequate number of journals. \n 7) Healthcare and Counselling facilities \n 8) Utility services. \n To know more about our college please visit our official website at <a href=\"https://tint.edu.in/\">https://tint.edu.in/</a>"
+      ]
+    },
+    {
+      "tag": "Anti_Ragging_Affidavit_by_Student_Format",
+      "patterns": [
+        "What is the format of an anti-ragging affidavit",
+        "Where we can find our anti-ragging format",
+        "Anti-ragging affidavit form",
+        "Form of anti-ragging affidavit form",
+        "How can we get the anti-ragging file format",
+        "Anti-ragging file format at TINT",
+        "Anti-ragging file format in this college",
+        "College anti-ragging file format",
+        "Format of anti-ragging file",
+        "How to file anti-ragging"
+      ],
+      "responses": [
+        "The format as per the anti-ragging affidavit according to the guidelines of the government of India is given in our college portal at <a href=\"https://tint.edu.in/tict-anti-ragging-affidavit-by-student-format\">https://tint.edu.in/tict-anti-ragging-affidavit-by-student-format</a>.You can easily download it for further proceedings."
+      ]
+    },
+    {
+      "tag": "International_Conference_At_TINT",
+      "patterns": [
+        "Are there any international conferences organized at TINT till now",
+        "Are there any international conferences held in TINT",
+        "International conferences at TINT",
+        "International conferences in this college",
+        "Tell me about the international conferences",
+        "Can you give some ideas about the international conferences at TINT",
+        "Is TINT organizes International conferences every year",
+        "In each year TINT College organizes International conferences with foreign collaborations"
+      ],
+      "responses": [
+        "Till now there are 3 International Conferences held in Techno International New Town. \n 1) Advanced Smart Materials and Structures, ASMaS-2023, from June 28-30, 2023. \n 2) Data Analytics and Insights (ICDAI) on May 11th - 13th, 2023. \n 3) ICT as a Tool for Digitalization of Education(ICTTDE) 2023. \n All the details about the above international conferences are available at our site at <a href=\"https://tint.edu.in/international-conference-2023.html\">https://tint.edu.in/international-conference-2023.html</a>."
+      ]
+    },
+    {
+      "tag": "Managing_Director_At_TINT",
+      "patterns": [
+        "Tell me who is the managing director of TINT",
+        "Who is the managing director of TINT",
+        "Who is the managing director of this college",
+        "Managing director of TINT",
+        "Managing director of this college",
+        "Who is the founder of this college",
+        "Founder of TINT",
+        "Founder of Techno International New Town",
+        "Managing Director of Techno International New Town"
+      ],
+      "responses": [
+        "Satyam Roychowdhury is the founder & managing director of Techno International New Town."
+      ]
+    },
+    {
+      "tag": "CSE_Head_Of_The_Department_At_TINT",
+      "patterns": [
+        "Tell me who is the HOD of CSE of TINT",
+        "Who is the head of the department of CSE of TINT",
+        "Who is the HOD of the computer science and engineering department of this college",
+        "HOD of CSE TINT",
+        "Head of the Department of Computer science of this college",
+        "Who is the HOD of CSE in this college",
+        "Head of the department of CSE TINT",
+        "Head of the department of CSE in Techno International New Town",
+        "HOD of CSE in Techno International New Town"
+      ],
+      "responses": [
+        "Prof. Bikash Sadhukhan is the head of the computer science and engineering department at Techno International New Town."
+      ]
+    },
+    {
+      "tag": "IT_Head_Of_The_Department_At_TINT",
+      "patterns": [
+        "Tell me who is the HOD of IT of TINT",
+        "Who is the head of the department of IT of TINT",
+        "Who is the HOD of the Information Technology department of this college",
+        "HOD of IT TINT",
+        "Head of the Department of Information Technology of this college",
+        "Who is the HOD of IT in this college",
+        "Head of the department of IT TINT",
+        "Head of the department of IT in Techno International New Town",
+        "HOD of IT in Techno International New Town"
+      ],
+      "responses": [
+        "Prof. Shiladitya Munshi is the head of the computer science and engineering department at Techno International New Town."
+      ]
+    },
+    {
+      "tag": "ECE_Head_Of_The_Department_At_TINT",
+      "patterns": [
+        "Tell me who is the HOD of ECE of TINT",
+        "Who is the head of the department of ECE of TINT",
+        "Who is the HOD of the Electronics and Communication Engineering department of this college",
+        "HOD of ECE TINT",
+        "Head of the Department of Electronics and Communication Engineering of this college",
+        "Who is the HOD ECE in this college",
+        "Head of the department of ECE TINT",
+        "Head of the department of ECE in Techno International New Town",
+        "HOD of ECE in Techno International New Town"
+      ],
+      "responses": [
+        "Prof. (Dr.) Manabendra Maity is the head of the Electronics and Communication Engineering department at Techno International New Town."
+      ]
+    },
+    {
+      "tag": "EE_Head_Of_The_Department_At_TINT",
+      "patterns": [
+        "Tell me who is the HOD of EE of TINT",
+        "Who is the head of the department of EE of TINT",
+        "Who is the HOD of the Electronics Engineering department of this college",
+        "HOD of EE TINT",
+        "Head of the Department of Electronics Engineering of this college",
+        "Who is the HOD of EE in this college",
+        "Head of the department of EE TINT",
+        "Head of the department of EE in Techno International New Town",
+        "HOD of EE in Techno International New Town"
+      ],
+      "responses": [
+        "Prof. (Dr.) Milan Basu is the head of the Electronics Engineering department at Techno International New Town."
+      ]
+    },
+    {
+      "tag": "CE_Head_Of_The_Department_At_TINT",
+      "patterns": [
+        "Tell me who is the HOD of CE of TINT",
+        "Who is the head of the department of CE of TINT",
+        "Who is the HOD of the civil engineering department of this college",
+        "HOD of CE TINT",
+        "Head of the Department of civil engineering of this college",
+        "Who is the HOD of CE in this college",
+        "Head of the Department of CE TINT",
+        "Head of the Department of CE in Techno International New Town",
+        "HOD of CE in Techno International New Town"
+      ],
+      "responses": [
+        "Prof. (Dr.) Sanjay Neogi is the head of the Civil Engineering department at Techno International New Town."
+      ]
+    },
+    {
+      "tag": "AEIE_Head_Of_The_Department_At_TINT",
+      "patterns": [
+        "Tell me who is the HOD of AEIE of TINT",
+        "Who is the head of the department of AEIE of TINT",
+        "Who is the HOD of the Applied Electronics and Instrumentation Engineering department of this college",
+        "HOD of AEIE TINT",
+        "Head of the Department of Applied Electronics and Instrumentation Engineering of this college",
+        "Who is the HOD of AEIE in this college",
+        "Head of the department of AEIE TINT",
+        "Head of the department of AEIE in Techno International New Town",
+        "HOD of AEIE in Techno International New Town"
+      ],
+      "responses": [
+        "Prof. Indrajit Pandey is the head of the department of Applied Electronics and Instrumentation Engineering department at Techno International New Town."
+      ]
+    },
+    {
+      "tag": "BSH_Head_Of_The_Department_At_TINT",
+      "patterns": [
+        "Tell me who is the HOD of BSH of TINT",
+        "Who is the head of the department of BSH of TINT",
+        "Who is the HOD of the Basic Science and Humanities department of this college",
+        "HOD of BSH TINT",
+        "Head of the Department of Basic Science and Humanities of this college",
+        "Who is the HOD of BSH in this college",
+        "Head of the department of BSH TINT",
+        "Head of the department of BSH in Techno International New Town",
+        "HOD of BSH in Techno International New Town"
+      ],
+      "responses": [
+        "Prof. (Dr.) Kakali Ghosh is the head of the department of Basic Science and Humanities department at Techno International New Town."
+      ]
+    },
+    {
+      "tag": "ME_Head_Of_The_Department_At_TINT",
+      "patterns": [
+        "Tell me who is the HOD of ME of TINT",
+        "Who is the head of the department of ME of TINT",
+        "Who is the HOD of the Mechanical Engineering department of this college",
+        "HOD of ME TINT",
+        "Head of the Department of Mechanical Engineering of this college",
+        "Who is the HOD of ME in this college",
+        "Head of the department of ME TINT",
+        "Head of the department of ME in Techno International New Town",
+        "HOD of ME in Techno International New Town"
+      ],
+      "responses": [
+        "Prof. (Dr.) Tapas Kumar Nandi is the head of the Mechanical Engineering department at Techno International New Town."
+      ]
+    },
+    {
+      "tag": "Discipline_Do's_For_The_Students_At_TINT",
+      "patterns": [
+        "What is the discipline that must abide in the college campus",
+        "What are the Do's for the students",
+        "What must be followed inside the college campus",
+        "What are the disciplines for the students",
+        "Discipline for the students",
+        "Students discipline that must be followed",
+        "The students must follow a list of disciplines",
+        "Is there any discipline at TINT",
+        "Are there any Dos for the students",
+        "Discipline manners that must be neede by the students"
+      ],
+      "responses": [
+        "There are many Disciplines that must be abiding by the students inside our campus, otherwise strict actions are taken by the college authority. \n Some of the Do's for the students are listed below: \n 1) Discipline and punctuality are integral to success. Attend your classes and laboratory sessions on time. Action will be taken against habitual latecomers. \n 2) Be regular in attending your classes and laboratory sessions. Students not having a minimum of 75% attendance will be barred from appearing in the Semester Examinations. Be a proud TICTian. Come to the College in the proper prescribed uniform. Your dress should be clean and ironed. \n 3) Respect your fellow classmates, the senior students as well as your teachers. Use only courteous language and behave with decorum with the faculty, staff, students, and guests of the College. \n 4) Take up all assignments, tests, and examinations of the College seriously and try to perform the best. Any information and/or other task assigned to you should be submitted within the given deadline. \n 5) Be respectful and well-mannered towards all the staff in your College. You must learn to respect the work of others. You are enjoying a safe and healthy stay at TICT because the gatekeepers, sweepers, and peons are doing their job well. \n For more information visit <a href=\"https://tint.edu.in/campus-life/dos-donts-for-students.html\">https://tint.edu.in/campus-life/dos-donts-for-students.html</a>"
+      ]
+    },
+    {
+      "tag": "Discipline_Don'ts_For_The_Students_At_TINT",
+      "patterns": [
+        "What are the Don'ts that must abide in the college campus",
+        "What are the Don'ts for the students",
+        "What are the Don'ts must be followed inside the college campus",
+        "Is smoking allowed on the college campus",
+        "Is fancy uniform allowed inside campus",
+        "Can we go college without the college official uniform",
+        "What are the Don'ts for the students",
+        "Don'ts for the students",
+        "Students Don'ts that must be followed",
+        "The students must follow the list of Don'ts",
+        "Are there any Don'ts at TINT",
+        "Are there any Don'ts for the students"
+      ],
+      "responses": [
+        "There are many Don'ts that must be abiding by the students inside our campus, otherwise strict actions are taken by the college authority. \n Some of the Don'ts for the students are listed below: \n 1) Don’t rag and don’t be a mute witness to ragging. It is a criminal offense punishable under the Indian Penal Code. Strict disciplinary action will be taken against any student indulging in any form of ragging or Eve-Teasing inside or on the College premises or outside. \n 2) The College is your second home. Don’t litter the Campus. A clean and healthy environment will lead to a better tomorrow. \n 3) Smoking and/or consumption of any kind of alcoholic drinks/drugs inside the College is strictly prohibited. \n 4) Don’t use unfair means during examination. Misconduct during the examination, production of false information or documents for admission purposes, and the failure to return materials taken on loan from the College would be seriously dealt with. \n 5) Unruly gathering in groups at roads, entrances, exits, and pathways are strictly prohibited. \n For more information visit <a href=\"https://tint.edu.in/campus-life/dos-donts-for-students.html\">https://tint.edu.in/campus-life/dos-donts-for-students.html</a>"
+      ]
+    },
+    {
+      "tag": "College_Email_Id_TINT",
+      "patterns": [
+        "Tell me about the college email",
+        "What is the college e-mail id of the TINT",
+        "TINT official email id",
+        "Email id of the college",
+        "College official mail id",
+        "mail id of the college",
+        "Can you provide the college's official email id",
+        "Can you say something about the college email",
+        "I need the college's official e-mail id",
+        "E-mail id of TINT college"
+      ],
+      "responses": [
+        "The official E-mail id of Techno International New Town is <a href=\"info@tict.edu.in\">info@tict.edu.in</a>"
+      ]
+    },
+    {
+      "tag": "Affiliation",
+      "patterns": [
+        "From which university TINT is affiliated",
+        "Which affiliation does TINT have",
+        "Is TINT under MAKAUT",
+        "Is TINT AICTE approved",
+        "Is TINT under AICTE",
+        "From which university TINT is affiliated",
+        "College affiliation",
+        "TINT affiliation"
+      ],
+      "responses": [
+        "Techno International New Town (TINT) is affiliated with Maulana Abul Kalam Azad Institute Of Technology (MAKAUT) and also All India Council Of Technical Education (AICTE) approved located in West Bengal, Kolkata. \n TINT is accredited by Tata, and it is the remote center of IIT Bombay."
+      ]
+    },
+    {
+      "tag": "TINT_College_Photos_And_Images",
+      "patterns": [
+        "Send some photos of TINT",
+        "Photos of the college",
+        "College Images",
+        "College campus images",
+        "TINT photos",
+        "Can you please share us some images",
+        "Please share some photos of TINT campus",
+        "TINT college main gate pics",
+        "TINT college ground pics",
+        "TINT pics",
+        "College pics",
+        "TINT interior pics",
+        "College interior pics"
+      ],
+      "responses": [
+        "Here are some images link of our campus that you may like. \n <a href=\"https://ibb.co/HnkdVvf\">https://ibb.co/HnkdVvf</a> \n <a href=\"https://ibb.co/vzcVb1f\">https://ibb.co/vzcVb1f</a> \n <a href=\"https://ibb.co/ys2S976\">https://ibb.co/ys2S976</a> \n <a href=\"https://ibb.co/FnygNMG\">https://ibb.co/FnygNMG</a> \n <a href=\"https://ibb.co/bH3g2Cq\">https://ibb.co/bH3g2Cq</a>"
+      ]
+    }
+  ]
+}
